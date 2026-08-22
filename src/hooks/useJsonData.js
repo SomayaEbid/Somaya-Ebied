@@ -12,11 +12,39 @@ export function useJsonData(path) {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(path);
+        
+        const basePath = import.meta.env.BASE_URL;
+        const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+        const fullPath = `${basePath}${normalizedPath}`;
+        
+        const response = await fetch(fullPath);
         if (!response.ok) {
-          throw new Error(`Failed to fetch ${path}: ${response.status} ${response.statusText}`);
+          throw new Error(`Failed to fetch ${fullPath}: ${response.status} ${response.statusText}`);
         }
-        const json = await response.json();
+        let json = await response.json();
+        
+        const fixPaths = (obj) => {
+          if (typeof obj === 'string') {
+            if (obj.startsWith('/images/') || obj.startsWith('/files/') || obj.startsWith('/data/')) {
+              return `${basePath}${obj.slice(1)}`;
+            }
+            return obj;
+          }
+          if (Array.isArray(obj)) {
+            return obj.map(fixPaths);
+          }
+          if (obj !== null && typeof obj === 'object') {
+            const newObj = {};
+            for (const key in obj) {
+              newObj[key] = fixPaths(obj[key]);
+            }
+            return newObj;
+          }
+          return obj;
+        };
+        
+        json = fixPaths(json);
+
         if (!cancelled) {
           setData(json);
         }

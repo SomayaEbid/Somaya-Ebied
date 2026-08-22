@@ -62,7 +62,7 @@ export default function Navbar() {
             ))}
           </ul>
           <a
-            href="/Dr Somaya Ebid CV 2.pdf"
+            href={`${import.meta.env.BASE_URL}Dr Somaya Ebid CV 2.pdf`}
             download
             className="navbar__cv-btn"
             onClick={handleLinkClick}
