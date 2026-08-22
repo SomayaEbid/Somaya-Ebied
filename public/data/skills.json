@@ -1,20 +1,16 @@
 {
   "categories": [
     {
-      "name": "Training & Facilitation",
-      "skills": ["Training of Trainers (TOT)", "Curriculum Development", "Classroom Management", "Workshop Facilitation"]
+      "name": "Training & Development",
+      "skills": ["Training of Trainers (TOT)", "On-the-Job Training (OJT)", "Tokkatsu Model", "Play-Based Learning (LEGO/Duplo)", "Active Learning Facilitation"]
     },
     {
-      "name": "Leadership & Management",
-      "skills": ["Team Management", "Quality Assurance", "Strategic Planning", "Continuous Improvement"]
+      "name": "Leadership & Governance",
+      "skills": ["Institutional Quality Assurance", "Needs Assessment", "Educational Monitoring & Evaluation (M&E)", "Team Leadership", "Workshop Facilitation"]
     },
     {
-      "name": "Technical",
-      "skills": ["ICT for Educational Management", "Data Analysis", "Monitoring & Evaluation"]
-    },
-    {
-      "name": "Languages",
-      "skills": ["English (Fluent)", "Arabic (Native)"]
+      "name": "Technical & Languages",
+      "skills": ["ICT for Educational Management", "Data Analysis & Actionable Reporting", "Microsoft Office / EdTech Tools", "Fluent Spoken & Written English"]
     }
   ]
 }

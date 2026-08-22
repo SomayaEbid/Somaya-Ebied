@@ -1,48 +1,90 @@
 [
   {
     "id": "cert-1",
-    "title": "Core Human Resource Development for Guideline Development – Japanese Model of Education including Tokkatsu",
-    "issuer": "JICA (Japan International Cooperation Agency) / PADECO Co., Ltd.",
-    "date": "2024-05",
-    "location": "Okinawa, Japan",
-    "image": "/images/certificates/jica-tokkatsu.jpg"
+    "title": "Artificial intelligence Ambassador Program",
+    "issuer": "Ministry of communication and Information Technology",
+    "date": "2025",
+    "location": "",
+    "image": ""
   },
   {
     "id": "cert-2",
-    "title": "Certified International Training Expert (100 hours)",
+    "title": "Core Human Resource Development for Guideline Development: Japanese Model of Education (Tokkatsu)",
+    "issuer": "Japan International Cooperation Agency (JICA) / PADECO Co., Ltd.",
+    "date": "May 2024",
+    "image": "/images/certificates/jica-tokkatsu.jpg"
+  },
+  {
+    "id": "cert-3",
+    "title": "Women’s Leadership School Graduate",
+    "issuer": "National Training Academy (NTA) - Presidency of the Republic",
+    "date": "2023",
+    "image": ""
+  },
+  {
+    "id": "cert-4",
+    "title": "Microsoft TOT (Career Path)",
+    "issuer": "Microsoft Certified",
+    "date": "Nov 2022",
+    "image": ""
+  },
+  {
+    "id": "cert-5",
+    "title": "Certified International Training Expert (CTE - 100 Hours, Grade: 90%)",
     "issuer": "UK Training Board",
-    "date": "2020",
+    "date": "Jun 2019 / 2020",
     "code": "3237pwzwo",
     "image": "/images/certificates/uktb-cte.jpg"
   },
   {
-    "id": "cert-3",
-    "title": "Developing Your Training Program (60 hours)",
+    "id": "cert-6",
+    "title": "Developing Your Training Program (60 Hours, Grade: 80%)",
     "issuer": "UK Training Board",
-    "date": "2018-12",
+    "date": "Dec 2018 / 2020",
     "code": "4362bzhtz",
     "image": "/images/certificates/uktb-dytp.jpg"
   },
   {
-    "id": "cert-4",
-    "title": "Certified Professional Trainer (42 hours, Distinction)",
+    "id": "cert-7",
+    "title": "Certified Professional Trainer (TOT - 42 Hours, Distinction)",
     "issuer": "UK Training Board",
-    "date": "2018-01",
+    "date": "Jan 2018",
     "code": "1429jidat",
     "image": "/images/certificates/uktb-cpt.jpg"
   },
   {
-    "id": "cert-5",
-    "title": "Microsoft Training of Trainers (Career Path)",
-    "issuer": "Microsoft",
-    "date": "2022-11",
+    "id": "cert-8",
+    "title": "UNICEF Egypt Master TOT Certification",
+    "issuer": "UNICEF Egypt, Ismailia Governorate",
+    "date": "Feb 2020",
     "image": ""
   },
   {
-    "id": "cert-6",
-    "title": "Presidency's Women's Leadership School — NTA Training Academy",
-    "issuer": "National Training Academy",
-    "date": "2023",
+    "id": "cert-9",
+    "title": "Institutional Self-Evaluation & Quality Assurance for Pre-University Education",
+    "issuer": "NAQAAE (National Authority for Quality Assurance)",
+    "date": "2018",
+    "image": ""
+  },
+  {
+    "id": "cert-10",
+    "title": "English Language Diploma",
+    "issuer": "Main Language Center, Tanta University",
+    "date": "2020",
+    "image": ""
+  },
+  {
+    "id": "cert-11",
+    "title": "ICT Training for Postgraduate Studies",
+    "issuer": "Center for Graduate Studies, Tanta University",
+    "date": "2020",
+    "image": ""
+  },
+  {
+    "id": "cert-12",
+    "title": "Cisco Smart Learning ICT Certification (60 Hours)",
+    "issuer": "Cisco Smart Learning",
+    "date": "2017",
     "image": ""
   }
 ]
