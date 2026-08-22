@@ -1,0 +1,63 @@
+.skills__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.skills__category {
+  text-align: center;
+  padding: var(--space-8);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all var(--transition-base);
+}
+
+.skills__category:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(201, 162, 39, 0.2);
+}
+
+.skills__category-name {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-gold);
+  margin-bottom: var(--space-5);
+}
+
+.skills__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+/* Override badge colors for dark section */
+.skills__tags .badge--default {
+  background: rgba(201, 162, 39, 0.15);
+  color: var(--color-gold-light);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+}
+
+.skills__tags .badge--default:hover {
+  background: var(--color-gold);
+  color: var(--color-navy-dark);
+  box-shadow: var(--shadow-gold);
+}
+
+@media (min-width: 768px) {
+  .skills__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,0 +1,99 @@
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-gold);
+}
+
+.card__image-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background-color: var(--color-gray-100);
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.card:hover .card__image {
+  transform: scale(1.05);
+}
+
+.card__body {
+  padding: var(--space-6);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-bottom: var(--space-2);
+  font-family: var(--font-body);
+  line-height: var(--leading-snug);
+}
+
+.card__subtitle {
+  font-size: var(--text-sm);
+  color: var(--color-gold-dark);
+  font-weight: 500;
+  margin-bottom: var(--space-3);
+}
+
+.card__description {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  flex: 1;
+}
+
+/* Card without image — icon placeholder */
+.card--no-image {
+  text-align: center;
+}
+
+.card--no-image .card__body {
+  padding: var(--space-8);
+}
+
+.card--no-image .card__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-4);
+  color: var(--color-gold);
+}
+
+/* Placeholder when image fails to load */
+.card__image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: linear-gradient(135deg, var(--color-navy), var(--color-navy-light));
+  color: var(--color-gold);
+}
+
+.card__image-placeholder span {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  opacity: 0.7;
+}

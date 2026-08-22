@@ -1,0 +1,48 @@
+[
+  {
+    "id": "cert-1",
+    "title": "Core Human Resource Development for Guideline Development – Japanese Model of Education including Tokkatsu",
+    "issuer": "JICA (Japan International Cooperation Agency) / PADECO Co., Ltd.",
+    "date": "2024-05",
+    "location": "Okinawa, Japan",
+    "image": "/images/certificates/jica-tokkatsu.jpg"
+  },
+  {
+    "id": "cert-2",
+    "title": "Certified International Training Expert (100 hours)",
+    "issuer": "UK Training Board",
+    "date": "2020",
+    "code": "3237pwzwo",
+    "image": "/images/certificates/uktb-cte.jpg"
+  },
+  {
+    "id": "cert-3",
+    "title": "Developing Your Training Program (60 hours)",
+    "issuer": "UK Training Board",
+    "date": "2018-12",
+    "code": "4362bzhtz",
+    "image": "/images/certificates/uktb-dytp.jpg"
+  },
+  {
+    "id": "cert-4",
+    "title": "Certified Professional Trainer (42 hours, Distinction)",
+    "issuer": "UK Training Board",
+    "date": "2018-01",
+    "code": "1429jidat",
+    "image": "/images/certificates/uktb-cpt.jpg"
+  },
+  {
+    "id": "cert-5",
+    "title": "Microsoft Training of Trainers (Career Path)",
+    "issuer": "Microsoft",
+    "date": "2022-11",
+    "image": ""
+  },
+  {
+    "id": "cert-6",
+    "title": "Presidency's Women's Leadership School — NTA Training Academy",
+    "issuer": "National Training Academy",
+    "date": "2023",
+    "image": ""
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Training & Facilitation",
+      "skills": ["Training of Trainers (TOT)", "Curriculum Development", "Classroom Management", "Workshop Facilitation"]
+    },
+    {
+      "name": "Leadership & Management",
+      "skills": ["Team Management", "Quality Assurance", "Strategic Planning", "Continuous Improvement"]
+    },
+    {
+      "name": "Technical",
+      "skills": ["ICT for Educational Management", "Data Analysis", "Monitoring & Evaluation"]
+    },
+    {
+      "name": "Languages",
+      "skills": ["English (Fluent)", "Arabic (Native)"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Assistant Training Manager",
+    "organization": "Sheraton Sharm El-Sheikh",
+    "startDate": "2025-12",
+    "endDate": "Present",
+    "bullets": [
+      "Lead the design and delivery of training programs for hotel staff, supporting onboarding, professional development, and service quality improvement."
+    ]
+  },
+  {
+    "id": "exp-2",
+    "role": "Tokkatsu Officer and Trainer",
+    "organization": "Egyptian Japanese Schools Unit, Ministry of Education",
+    "startDate": "2020-11",
+    "endDate": "2025-12",
+    "bullets": [
+      "Trained kindergarten and primary school teachers weekly on 'Learning through Playing', classroom management, and Tokkatsu activities."
+    ]
+  },
+  {
+    "id": "exp-3",
+    "role": "Certified Master Trainer",
+    "organization": "UNICEF Egypt",
+    "startDate": "2019-02",
+    "endDate": "2023-10",
+    "bullets": [
+      "Trained healthcare authority participants to diagnose cases using LEGO-based tools.",
+      "Delivered play-based learning training to South Sinai teachers.",
+      "Provided evaluation and follow-up skills training for senior leaders in Ismailia and South Sinai.",
+      "Conducted capacity-building sessions for education leaders on project follow-up."
+    ]
+  },
+  {
+    "id": "exp-4",
+    "role": "Certified International Trainer",
+    "organization": "UK Training Board",
+    "startDate": "2018-12",
+    "endDate": "2024-09",
+    "bullets": [
+      "Participated in all Training of Trainers (TOT) programs as a certified international trainer."
+    ]
+  }
+]
