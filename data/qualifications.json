@@ -1,22 +1,29 @@
 [
   {
     "id": "qual-1",
-    "title": "Doctoral Researcher, Educational and Psychological Sciences",
-    "institution": "",
+    "title": "Doctoral Researcher in Educational and Psychological Sciences",
+    "institution": "Faculty of Education",
     "year": "Ongoing",
     "notes": ""
   },
   {
     "id": "qual-2",
-    "title": "Master's Degree — Developing Awareness of Sustainable Development Issues via e-learning",
-    "institution": "",
-    "year": "2022",
-    "notes": "Best Scientific Research Award, University Level"
+    "title": "Master’s Degree in Educational Technology & E-Learning",
+    "institution": "Tanta University",
+    "year": "2023",
+    "notes": "Thesis: Developing Awareness of Sustainable Development Issues via E-Learning — Recipient of the Best Scientific Research Award at the University Level"
   },
   {
     "id": "qual-3",
-    "title": "Training Scholarship, London",
-    "institution": "Teachers' Union — First Professional Teacher Program",
+    "title": "Country-Focused Program: Guideline Development for Japanese Model of Education (Tokkatsu)",
+    "institution": "JICA & PADECO Co., Okinawa, Japan",
+    "year": "May 2024",
+    "notes": ""
+  },
+  {
+    "id": "qual-4",
+    "title": "Specialized Professional Teacher Training Scholarship",
+    "institution": "Teachers' Union, London, UK",
     "year": "2019",
     "notes": ""
   }

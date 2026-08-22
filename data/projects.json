@@ -1,9 +1,30 @@
 [
   {
     "id": "proj-1",
-    "title": "School Thrive Framework™",
-    "description": "A consultancy framework for private and international schools focused on SEL, classroom coaching for teachers, and parent-school partnership.",
-    "tags": ["SEL", "Consultancy", "Education Leadership"],
+    "title": "Founder & Program Lead — Social & Behavioral Skills Program (Schools & Families)",
+    "description": "Developing a social and interpersonal skills program that engages teachers, students, and parents at private and international schools, building the practical people-skills that shape healthier classrooms and homes. Designing school-based strategies that equip teachers and parents to work together on student behavioral challenges and excessive reliance on technology, supporting stronger real-world engagement.",
+    "tags": ["Program Lead", "Social & Behavioral Skills", "Education"],
+    "link": ""
+  },
+  {
+    "id": "proj-2",
+    "title": "Founder — Inner Bloom",
+    "description": "Founded an initiative supporting teenage girls through safe, healthy psychological growth during adolescence. Delivered a workshop on self-awareness and emotional release for teenage girls in Sharm El-Sheikh (October 2025).",
+    "tags": ["Founder", "Adolescent Psychology", "Initiative"],
+    "link": ""
+  },
+  {
+    "id": "proj-3",
+    "title": "Founder — 'A Lifestyle' Sustainable Development Awareness Initiative",
+    "description": "Built public awareness of everyday practices that support sustainable development, extending the sustainability research behind her award-winning Master's thesis into community practice.",
+    "tags": ["Sustainability", "Founder", "Awareness"],
+    "link": ""
+  },
+  {
+    "id": "proj-4",
+    "title": "Contributor — Women Empowerment Sessions, Beginning (Bedaya) Presidential Initiative",
+    "description": "Following her Women's Leadership School graduation and drawing on the women's-quality-of-life research in her Master's, ran sessions in Sharm El-Sheikh supporting women's empowerment, health, and family relationships.",
+    "tags": ["Women Empowerment", "Contributor", "Presidential Initiative"],
     "link": ""
   }
 ]
